@@ -32,3 +32,27 @@
 .slide {
     width: 250px;
 }
+.main {
+    display: grid;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+.button {
+    font-size: 1.375rem;
+    background: #ffbf1f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover {
+    background: #faa61a;
+}
+.form {
+    display: grid;
+    justify-content: center;
+}
