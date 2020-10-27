@@ -56,3 +56,22 @@ a {
     display: grid;
     justify-content: center;
 }
+/* 「伊藤バラ園とは」のCSS*/
+.intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.intro-picture img{
+    margin-left: 150px;
+    width: 70%;
+    height: 500px;
+}
+.intro-text {
+  
+}
+/* 新着情報 */
+.news {
+    width: 300px;
+    background-color: antiquewhite;
+    border: 3px solid #faa61a;
+}
