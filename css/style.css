@@ -75,3 +75,38 @@ a {
     background-color: antiquewhite;
     border: 3px solid #faa61a;
 }
+/*商品一覧*/
+.product {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.product-unit {
+    display: grid;
+    justify-content: center;
+}
+.product-unit img {
+    width: 200px;
+    height: 200px;
+
+}
+/*商品詳細*/
+.unit {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.unit-picture img{
+    margin-left: 150px;
+    width: 70%;
+    height: 500px;
+}
+.unit-right {
+    display: grid;
+    justify-content: center;
+}
+.unit-text {
+
+}
+.unit-under {
+
+}
