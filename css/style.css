@@ -110,3 +110,26 @@ a {
 .unit-under {
 
 }
+/*カート*/
+.cart {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.cart-picture {
+
+}
+.cart-picture img{
+    margin-left: 300px;
+    width: 30%;
+    height: 200px;
+}
+.cart-center {
+    display: grid;
+    justify-content: center;
+}
+.cart-right {
+      
+}
+.unit-amount {
+    
+}
