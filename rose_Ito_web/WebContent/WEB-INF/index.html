@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="豊橋にあるバラ農家です。購入もできます。">
+    <title>伊藤バラ園</title>
+    <!--css-->
+    <link href="css/style.css" rel="stylesheet">
+    <!--スライドショー-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript" >
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000,
+                });
+            });
+    </script>
+
+</head>
+<body>
+<div class="background">
+    <header class="page-header wrapper">
+        <h2><a href="index.html">伊藤バラ園</a></h2>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="images/introduction.html">伊藤バラ園とは</a></li>
+                <li><a href="images/news.html">新着情報</a></li>
+                <li><a href="images/product.html">商品一覧</a></li>
+                <li><a href="images/mypage.html">マイページ</a></li>
+                <li><a href="images/cart.html">カート</a></li>
+                <li><a href="images/contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="center">伊藤バラ園</h1>
+        <div class="slide">
+            <a href="images/product.html">
+            <div class="slider">
+                <img src="pictures/red.JPG" width="100" height="300" alt="">
+                <img src="pictures/yellow.JPG" width="100" height="300" alt="">
+                <img src="pictures/pink.JPG" width="100" height="300" alt="">
+                <img src="pictures/whitepink.JPG" width="100" height="300" alt="">
+            </div>
+            </a>
+        </div>
+        <a class="button center" href="images/product.html">商品を見る</a>
+
+    </main>
+
+    <footer></footer>
+</div>
+</body>
+</html>
